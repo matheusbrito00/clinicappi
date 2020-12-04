@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid lightgray;
+}
+
+header a {
+    margin-right: 50px;
+}
+
+/* Descrição */
+
+.description_title {
+    width: 100%;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.description_title img {
+    width: 200px;
+    height:200px;
+}
+
+.description_title h2 {
+    color: #0d6efd;
+    font-size: 38px;
+    margin: 20px 0;
+}
+
+.description_title p {
+    color: gray;
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+/* Missão Valores */
+
+section.missao_valores {
+    margin: 20px 0;
+}
+
+.missao_valores img {
+    height: 80%;
+    width: 80%;
+    margin: 23px 0;
+}
+
+#valores {
+    height: 70%;
+    width: 70%;
+}
+
+.missao_valores h2 {
+    color: #0d6efd;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.missao_valores p {
+    color: #444444;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #0d6efd;
+    border-top: 2px solid lightgray;
+    margin-top: 80px;
+}
+
+section.info {
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.info h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.line {
+    background-color: lightgray;
+    height: 1px;
+    width: 40%;
+    margin: 15px 0;
+}
+
+.info p {
+    color: white;
+    font-size: 14px;
+}
+
+section.copyright {
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+}
+
+/* Section Galeria Titulo */
+
+section.galeria-title {
+    margin: 30px 0;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria-title img {
+    width: 80px;
+    height: 80px;
+}
+
+.galeria-title h2 {
+    color: #0d6efd;
+    font-size: 35px;
+    margin-left: 18px;
+}
+
+/* Section Galeria Fotos */
+
+section.galeria {
+    margin: 80px 0;
+}
+
+.galeria img {
+    width: 75%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.galeria h2 {
+    color: #0d6efd;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.galeria p {
+    color: #444444;
+    font-size: 18px;
+}
