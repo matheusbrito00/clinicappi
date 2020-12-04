@@ -151,3 +151,47 @@ section.galeria {
     color: #444444;
     font-size: 18px;
 }
+
+/* Endereço */
+
+section.endereco-title {
+    margin: 40px 0;
+}
+
+.endereco-title img {
+    width: 80px;
+    height: 80px;
+}
+
+.endereco-title h2 {
+    color: #0d6efd;
+    font-size: 35px;
+    margin-left: 18px;
+}
+
+/* Endereço Form */
+
+.endereco button {
+    margin-top: 35px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background-color: #4876FF;
+    color: white;
+}
+
+.endereco button:hover {
+    cursor: pointer;
+    background-color: #436EEE;
+}
+
+.endereco div {
+    margin-top: 15px;
+}
+
+.endereco label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+}
