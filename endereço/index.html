@@ -19,11 +19,11 @@
                     <div class="navbar-nav">
                         <div class="d-flex">
                             <div class="row">
-                                <a class="col-sm nav-link" href="./index.html">Home</a>
-                                <a class="col-sm nav-link" href="./galeria.html">Galeria</a>
-                                <a class="col-sm nav-link active" href="./endereco.html">Novo Endereço</a>
-                                <a class="col-sm nav-link" href="./login.html">Login</a>
-                                <a class="col-sm nav-link" href="./agendamento.html">Agendamento</a>
+                                <a class="col-sm nav-link" href="../index.html">Home</a>
+                                <a class="col-sm nav-link" href="../galeria/index.html">Galeria</a>
+                                <a class="col-sm nav-link active" href="./index.html">Novo Endereço</a>
+                                <a class="col-sm nav-link" href="../login/index.html">Login</a>
+                                <a class="col-sm nav-link" href="../agendamento/index.html">Agendamento</a>
                             </div>
                         </div>
                     </div>
@@ -37,14 +37,14 @@
         <section class="endereco-title">
             <div class="container">
                 <div class="position">
-                    <img src="../images/logo_clinica.png" alt="Logo Clinica" />
+                    <img src="../imagens/logo_clinica.png" alt="Logo Clinica" />
                     <h2>Cadastro de endereço: </h2>
                 </div>
             </div>
         </section>
         <section class="endereco">
             <div class="container">
-                <form class="row" action="#" method="#">
+                <form class="row" action="./formulário.php" method="POST">
                     <!--CEP e Endereço-->
                     <div class="col-sm-2">
                         <label for="inputCEP" class="form-label">CEP</label>
@@ -67,7 +67,8 @@
                     <div class="col-sm-4">
                         <label for="inputEstado" class="form-label">Estado</label>
                         <select id="inputEstado" class="form-select" name="estado">
-                            <option selected>AC</option>
+                            <option value="" selected hidden></option> <!--Escolha vazia como placeholder-->
+                            <option>AC</option>
                             <option>AL</option>
                             <option>AP</option>
                             <option>AM</option>
