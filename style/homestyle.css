@@ -12,10 +12,10 @@ header {
   border-bottom: 2px solid lightgray;
 }
 
-header a {
+/*Nav Bar*/
+.pub a{
   margin-right: 50px;
 }
-
 /* Descrição */
 
 .description_title {
@@ -30,7 +30,7 @@ header a {
 }
 
 .description_title h2 {
-  color: #0d6efd;
+  color: #444444;
   font-size: 38px;
   margin: 20px 0;
 }
@@ -175,6 +175,12 @@ form.box {
   border-radius: 10px;
 }
 
+.box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Agendamento */
 
 .agendamento-form h3 {
@@ -183,12 +189,23 @@ form.box {
   font-weight: bold;
 }
 
-.agendamento-form input[type=number]::-webkit-inner-spin-button { 
+input[type=number]::-webkit-inner-spin-button { 
   -webkit-appearance: none;
   
 }
-.agendamento-form input[type=number] { 
+input[type=number] { 
  -moz-appearance: textfield;
  appearance: textfield;
 
+}
+
+/* Cadastro Funcionario e Paciente */
+
+.cad div {
+  margin: 25px 0;
+}
+
+.cad label {
+  color: #444444;
+  margin-left: 10px;
 }

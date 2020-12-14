@@ -18,12 +18,14 @@
                     <h2>Clinica São João</h2>
                     <div class="navbar-nav">
                         <div class="d-flex">
-                            <div class="pub row">
-                                <a class="col-sm nav-link" href="./index.html">Home</a>
-                                <a class="col-sm nav-link" href="./galeria.html">Galeria</a>
-                                <a class="col-sm nav-link active" href="./endereco.html">Novo Endereço</a>
-                                <a class="col-sm nav-link" href="./login.html">Login</a>
-                                <a class="col-sm nav-link" href="./agendamento.html">Agendamento</a>
+                            <div class="row">
+                                <a class="col-sm nav-link" href="./cadfuncionario.html">Novo Funcionário</a>
+                                <a class="col-sm nav-link active" href="./cadpaciente.html">Novo Paciente</a>
+                                <a class="col-sm nav-link" href="#">Listar Funcionários</a>
+                                <a class="col-sm nav-link" href="#">Listar Pacientes</a>
+                                <a class="col-sm nav-link" href="#">Listar Endereços</a>
+                                <a class="col-sm nav-link" href="#">Listar todos Agendamentos</a>
+                                <a class="col-sm nav-link" href="#">Listar meus Agendamentos</a>
                             </div>
                         </div>
                     </div>
@@ -38,34 +40,42 @@
             <section class="title">
                 <div class="position">
                     <img src="../images/logo_clinica.png" alt="Logo Clinica" />
-                    <h2>Cadastro de endereço: </h2>
+                    <h2>Cadastro de Paciente </h2>
                 </div>
             </section>
-            <section class="endereco">
+            <section class="cad">
                 <form class="row" action="#" method="#">
-                    <!--CEP e Endereço-->
-                    <div class="col-sm-2">
-                        <label for="inputCEP" class="form-label">CEP</label>
-                        <input type="text" class="form-control" id="inputCEP" name="cep">
+                    <div class="form-floating col-sm-4">
+                        <input type="text" class="form-control" id="nomePac" name="nomePac" placeholder="Nome Completo">
+                        <label for="nomePac">Nome Completo</label>
                     </div>
-                    <div class="col-sm-5">
-                        <label for="inputLogradouro" class="form-label">Logradouro</label>
-                        <input type="text" class="form-control" id="inputLogradouro" name="lograd">
+                    <div class="form-floating col-sm-4">
+                        <input type="email" class="form-control" id="emailPac" name="emailPac" placeholder="Email">
+                        <label for="emailPac">Email</label>
                     </div>
-                    <div class="col-sm-5">
-                        <label for="inputBairro" class="form-label">Bairro</label>
-                        <input type="text" class="form-control" id="inputBairro" name="bairro">
+                    <div class="form-floating col-sm-4">
+                        <input type="number" class="form-control" id="telefonePac" name="telefonePac" placeholder="Telefone">
+                        <label for="telefonePac">Telefone</label>
                     </div>
-
-                    <!--Cidade e estado-->
-                    <div class="col-sm-8">
-                        <label for="inputCidade" class="form-label">Cidade</label>
-                        <input type="text" class="form-control" id="inputCidade" name="cidade">
+                    <div class="form-floating col-sm-4">
+                        <input type="text" class="form-control" id="cepPac" name="cepPac" placeholder="CEP">
+                        <label for="cepPac">CEP</label>
                     </div>
-                    <div class="col-sm-4">
-                        <label for="inputEstado" class="form-label">Estado</label>
-                        <select id="inputEstado" class="form-select" name="estado">
-                            <option selected>AC</option>
+                    <div class="form-floating col-sm-4">
+                        <input type="text" class="form-control" id="logradPac" name="logradPac" placeholder="Logradouro">
+                        <label for="logradPac">Logradouro</label>
+                    </div>
+                    <div class="form-floating col-sm-4">
+                        <input type="text" class="form-control" id="bairroPac" name="bairroPac" placeholder="Bairro">
+                        <label for="bairroPac">Bairro</label>
+                    </div>
+                    <div class="form-floating col-sm-8">
+                        <input type="text" class="form-control" id="cidadePac" name="cidadePac" placeholder="Cidade">
+                        <label for="cidadePac">Cidade</label>
+                    </div>
+                    <div class="form-floating col-sm-4">
+                        <select id="estadoPac" class="form-select" name="estado">
+                            <option>AC</option>
                             <option>AL</option>
                             <option>AP</option>
                             <option>AM</option>
@@ -93,9 +103,31 @@
                             <option>SE</option>
                             <option>TO</option>
                         </select>
+                        <label for="estadoPac" class="form-label">Estado</label>
+                    </div>
+                    <div class="form-floating col-sm-4">
+                        <input type="number" class="form-control" id="peso" name="peso" placeholder="Peso">
+                        <label for="peso">Peso</label>
+                    </div>
+                    <div class="form-floating col-sm-4">
+                        <input type="number" class="form-control" id="altura" name="altura" placeholder="Altura">
+                        <label for="altura">Altura</label>
+                    </div>
+                    <div class="form-floating col-sm-4">
+                        <select id="tipoSangue" class="form-select" name="tipoSangue">
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                        </select>
+                        <label for="tipoSangue" class="form-label">Tipo Sanguíneo</label>
                     </div>
                     <div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
                     </div>
                 </form>
             </section>
