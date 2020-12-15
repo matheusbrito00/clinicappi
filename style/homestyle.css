@@ -209,3 +209,9 @@ input[type=number] {
   color: #444444;
   margin-left: 10px;
 }
+
+/* Table */
+
+section .table {
+  height: 250px;
+}
