@@ -2,14 +2,6 @@
 
 <p align="center">Projeto de uma clinica desenvolvido para disciplina de Programação para Internet</p>
 
-<p align="center">
- <a href="#Features">Features</a> •
- <a href="#Demo">Demo</a> • 
- <a href="#Pré-requisitos">Pré-requisitos</a> • 
- <a href="#Tecnologias">Tecnologias</a> • 
- <a href="#autor">Autor</a>
-</p>
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
